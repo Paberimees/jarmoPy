@@ -1,0 +1,48 @@
+Last login: Tue Nov 12 22:15:19 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+Jarmos-MacBook-Air:~ jarmo$ cd jarmoPy
+Jarmos-MacBook-Air:jarmoPy jarmo$ nano readme.md
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  GNU nano 2.0.6              File: readme.md                         Modified  
+
+# jarmoPy
+my wife's son loved this project räme COOMi häda
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Page ^K Cut Text  ^C Cur Pos
+^X Exit      ^J Justify   ^W Where Is  ^V Next Page ^U UnCut Text^T To Spell
