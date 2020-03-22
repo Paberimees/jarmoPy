@@ -70,9 +70,11 @@ def valueBTC():
     return value
 
 def percentageBTC():
-    a = requests.get('https://coinmarketcap.com/currencies/bitcoin/')
-    soup_1 = BeautifulSoup(a.text,'html.parser')
-    soup_percentage = soup_1.find('span',attrs={"class":"cmc--change-negative"})
+    r = requests.get('https://coinmarketcap.com/currencies/bitcoin/')
+    soup = BeautifulSoup(r.text,'html.parser')
+    soup_percentage = soup.find('span',attrs={"class":"cmc--change-negative"})
+    if soup_percentage == None:
+        soup_percentage = soup.find('span',attrs={"class":"cmc--change-positive"})
     soup_percentage = soup_percentage.text.split('(')
     soup_percentage = soup_percentage[1].replace('%)','')
     return float(soup_percentage)
