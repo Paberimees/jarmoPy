@@ -1,4 +1,2 @@
 # jarmoPy
-my wife's son loved this project
-
-i wanna COOM 
+A small little calculator project, made for school.
